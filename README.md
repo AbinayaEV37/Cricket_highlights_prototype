@@ -64,13 +64,6 @@ These scripts process the match video, detect highlight events, and generate the
 
 The system generates:
 
-## Output
-
-The system generates:
-## Output
-
-The system generates:
-
 - Final highlights video **ipl_final.mp4**
 
 ## System Architecture
