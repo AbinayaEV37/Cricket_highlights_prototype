@@ -64,29 +64,25 @@ These scripts process the match video, detect highlight events, and generate the
 
 The system generates:
 
-- Highlight clips inside the **clips/** folder
-- Final highlights video **highlights.mp4**
+## Output
+
+The system generates:
+## Output
+
+The system generates:
+
+- Final highlights video **ipl_final.mp4**
 
 ## System Architecture
 
 The system follows a pipeline-based architecture to generate highlights automatically from a full-length cricket match video.
 
-Input Match Video
-        │
-        ▼
-Video Processing (FFmpeg)
-        │
-        ▼
-Event Filtering (ipl_filter.py)
-        │
-        ▼
-Highlight Detection
-        │
-        ▼
-Clip Generation (ipl_highlight_generator.py)
-        │
-        ▼
-Final Highlight Video
+Input Match Video  
+→ Video Processing (FFmpeg)  
+→ Event Filtering (ipl_filter.py)  
+→ Highlight Detection  
+→ Clip Generation (ipl_highlight_generator.py)  
+→ Final Highlight Video (ipl_final.mp4)
 
 
 Each stage processes the video data and passes the relevant information to the next stage to produce the final highlights video.
