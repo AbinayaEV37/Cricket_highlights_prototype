@@ -1,11 +1,9 @@
 # AI-Based Cricket Highlights Generator
 
 ## Project Description
-This project automatically generates cricket highlights from a full-length cricket match video using video processing and rule-based event filtering techniques.
+This project presents an AI-based system that automatically generates cricket highlights from a full-length match video using video processing and rule-based event filtering techniques.
 
-The system analyzes the match footage, detects important moments based on visual and event-based filtering, and automatically extracts highlight clips from the original video.
-
-These clips are then merged to create a final highlights video summarizing the key moments of the match.
+The system analyzes match footage, detects important moments using visual cues and event-based filtering, and extracts highlight clips automatically. These clips are then combined to generate a final summarized highlights video.
 
 ## Features
 - Automatic cricket highlight generation
